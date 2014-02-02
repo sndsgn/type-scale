@@ -1,0 +1,50 @@
+/*
+ * Built on TRIM
+ *
+ * Author: mrmrs
+ * License: MIT
+ *
+ *                */
+
+.f64 {
+  font-size: 64px;} 
+
+.f48 {
+  font-size: 48px;} 
+
+.f32 {
+  font-size: 32px;} 
+
+.f20 {
+  font-size: 20px;} 
+
+.f16 {
+  font-size: 16px;} 
+
+.tac {
+  text-align: center;}
+
+.phl1 { padding-left: 1rem;}
+
+.pas { padding: 1rem; }
+.pam { padding: 2rem; }
+.pal { padding: 4rem; }
+.pax { padding: 8rem; }
+
+.title { text-transform: uppercase; letter-spacing: .2em; }
+.thin { font-weight: 100; }
+
+@include break(not-small) {
+  .pas-ns { padding: 1rem; }
+  .pam-ns { padding: 2rem; }
+  .pal-ns { padding: 4rem; }
+  .pax-ns { padding: 8rem; }
+}
+
+@include break(large) {
+  .pas-l { padding: 1rem; }
+  .pam-l { padding: 2rem; }
+  .pal-l { padding: 4rem; }
+  .pax-l { padding: 8rem; }
+}
+
