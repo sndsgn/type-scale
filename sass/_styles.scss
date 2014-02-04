@@ -6,6 +6,9 @@
  *
  *                */
 
+* {
+  border: 1px solid gold;}
+
 .f64 {
   font-size: 64px;} 
 
@@ -14,6 +17,9 @@
 
 .f32 {
   font-size: 32px;} 
+
+.f24 {
+  font-size: 24px;}
 
 .f20 {
   font-size: 20px;} 
@@ -29,7 +35,8 @@
 .pas { padding: 1rem; }
 .pam { padding: 2rem; }
 .pal { padding: 4rem; }
-.pax { padding: 8rem; }
+.pax { padding: 6rem; }
+.paxl { padding: 8rem; }
 
 .title { text-transform: uppercase; letter-spacing: .2em; }
 .thin { font-weight: 100; }
@@ -43,7 +50,11 @@
 
 .olc-w { outline-color:white;}
 
-@include break(not-small) {
+.w100 { width: 100%; }
+
+.ff-Lucida { font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+
+@include break(medium) {
   .pas-ns { padding: 1rem; }
   .pam-ns { padding: 2rem; }
   .pal-ns { padding: 4rem; }

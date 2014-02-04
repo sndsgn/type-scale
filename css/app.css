@@ -1,4 +1,4 @@
-/*! normalize.css v2.1.0 | MIT License | git.io/normalize */
+/*! dat normalize.css v2.1.0 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -99,8 +99,8 @@ hr {
  * Address styling not present in IE 8/9.
  */
 mark {
-  background: yellow;
-  color: black; }
+  background: #ff0;
+  color: #000; }
 
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
@@ -173,7 +173,7 @@ figure {
  * Define consistent border, margin, and padding.
  */
 fieldset {
-  border: 1px solid silver;
+  border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
@@ -312,107 +312,107 @@ table {
 */
 /* Backgrounds */
 .bg-navy {
-  background-color: #001f3f; }
+  background-color: #001F3F; }
 
 .bg-blue {
-  background-color: #0074d9; }
+  background-color: #0074D9; }
 
 .bg-aqua {
-  background-color: #7fdbff; }
+  background-color: #7FDBFF; }
 
 .bg-teal {
-  background-color: #39cccc; }
+  background-color: #39CCCC; }
 
 .bg-olive {
-  background-color: #3d9970; }
+  background-color: #3D9970; }
 
 .bg-green {
-  background-color: #2ecc40; }
+  background-color: #2ECC40; }
 
 .bg-lime {
-  background-color: #01ff70; }
+  background-color: #01FF70; }
 
 .bg-yellow {
-  background-color: #ffdc00; }
+  background-color: #FFDC00; }
 
 .bg-orange {
-  background-color: #ff851b; }
+  background-color: #FF851B; }
 
 .bg-red {
-  background-color: #ff4136; }
+  background-color: #FF4136; }
 
 .bg-fuchsia {
-  background-color: #f012be; }
+  background-color: #F012BE; }
 
 .bg-purple {
-  background-color: #b10dc9; }
+  background-color: #B10DC9; }
 
 .bg-maroon {
-  background-color: #85144b; }
+  background-color: #85144B; }
 
 .bg-white {
-  background-color: white; }
+  background-color: #fff; }
 
 .bg-gray {
-  background-color: #aaaaaa; }
+  background-color: #aaa; }
 
 .bg-silver {
-  background-color: #dddddd; }
+  background-color: #ddd; }
 
 .bg-black {
-  background-color: #111111; }
+  background-color: #111; }
 
 /* Colors */
 .navy {
-  color: #001f3f; }
+  color: #001F3F; }
 
 .blue {
-  color: #0074d9; }
+  color: #0074D9; }
 
 .aqua {
-  color: #7fdbff; }
+  color: #7FDBFF; }
 
 .teal {
-  color: #39cccc; }
+  color: #39CCCC; }
 
 .olive {
-  color: #3d9970; }
+  color: #3D9970; }
 
 .green {
-  color: #2ecc40; }
+  color: #2ECC40; }
 
 .lime {
-  color: #01ff70; }
+  color: #01FF70; }
 
 .yellow {
-  color: #ffdc00; }
+  color: #FFDC00; }
 
 .orange {
-  color: #ff851b; }
+  color: #FF851B; }
 
 .red {
-  color: #ff4136; }
+  color: #FF4136; }
 
 .fuchsia {
-  color: #f012be; }
+  color: #F012BE; }
 
 .purple {
-  color: #b10dc9; }
+  color: #B10DC9; }
 
 .maroon {
-  color: #85144b; }
+  color: #85144B; }
 
 .white {
-  color: white; }
+  color: #fff; }
 
 .silver {
-  color: #dddddd; }
+  color: #ddd; }
 
 .gray {
-  color: #aaaaaa; }
+  color: #aaa; }
 
 .black {
-  color: #111111; }
+  color: #111; }
 
 /*
  * Built on TRIM
@@ -421,6 +421,9 @@ table {
  * License: MIT
  *
  *                */
+* {
+  border: 1px solid gold; }
+
 .f64 {
   font-size: 64px; }
 
@@ -429,6 +432,9 @@ table {
 
 .f32 {
   font-size: 32px; }
+
+.f24 {
+  font-size: 24px; }
 
 .f20 {
   font-size: 20px; }
@@ -452,6 +458,9 @@ table {
   padding: 4rem; }
 
 .pax {
+  padding: 6rem; }
+
+.paxl {
   padding: 8rem; }
 
 .title {
@@ -476,7 +485,13 @@ table {
 .olc-w {
   outline-color: white; }
 
-@media screen and (min-width: 32em) {
+.w100 {
+  width: 100%; }
+
+.ff-Lucida {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+
+@media screen and (min-width: 32em) and (max-width: 64em) {
   .pas-ns {
     padding: 1rem; }
   .pam-ns {
@@ -495,3 +510,301 @@ table {
     padding: 4rem; }
   .pax-l {
     padding: 8rem; } }
+
+/* THIS IS A COMMENT */
+body {
+  outline: 1px solid #2980B9 !important; }
+
+article {
+  outline: 1px solid #3498DB !important; }
+
+nav {
+  outline: 1px solid #0088C3 !important; }
+
+aside {
+  outline: 1px solid #33A0CE !important; }
+
+section {
+  outline: 1px solid #66B8DA !important; }
+
+header {
+  outline: 1px solid #99CFE7 !important; }
+
+footer {
+  outline: 1px solid #CCE7F3 !important; }
+
+h1 {
+  outline: 1px solid #162544 !important; }
+
+h2 {
+  outline: 1px solid #314E6E !important; }
+
+h3 {
+  outline: 1px solid #3E5E85 !important; }
+
+h4 {
+  outline: 1px solid #449BAF !important; }
+
+h5 {
+  outline: 1px solid #C7D1CB !important; }
+
+h6 {
+  outline: 1px solid #4371D0 !important; }
+
+main {
+  outline: 1px solid #2F4F90 !important; }
+
+address {
+  outline: 1px solid #1A2C51 !important; }
+
+div {
+  outline: 1px solid #036CDB !important; }
+
+p {
+  outline: 1px solid #AC050B !important; }
+
+hr {
+  outline: 1px solid #FF063F !important; }
+
+pre {
+  outline: 1px solid #850440 !important; }
+
+blockquote {
+  outline: 1px solid #F1B8E7 !important; }
+
+ol {
+  outline: 1px solid #FF050C !important; }
+
+ul {
+  outline: 1px solid #D90416 !important; }
+
+li {
+  outline: 1px solid #D90416 !important; }
+
+dl {
+  outline: 1px solid #FD3427 !important; }
+
+dt {
+  outline: 1px solid #FF0043 !important; }
+
+dd {
+  outline: 1px solid #E80174 !important; }
+
+figure {
+  outline: 1px solid #FF00BB !important; }
+
+figcaption {
+  outline: 1px solid #BF0032 !important; }
+
+table {
+  outline: 1px solid #00CC99 !important; }
+
+caption {
+  outline: 1px solid #37FFC4 !important; }
+
+thead {
+  outline: 1px solid #98DACA !important; }
+
+tbody {
+  outline: 1px solid #64A7A0 !important; }
+
+tfoot {
+  outline: 1px solid #22746B !important; }
+
+tr {
+  outline: 1px solid #86C0B2 !important; }
+
+th {
+  outline: 1px solid #A1E7D6 !important; }
+
+td {
+  outline: 1px solid #3F5A54 !important; }
+
+col {
+  outline: 1px solid #6C9A8F !important; }
+
+colgroup {
+  outline: 1px solid #6C9A9D !important; }
+
+button {
+  outline: 1px solid #DA8301 !important; }
+
+datalist {
+  outline: 1px solid #C06000 !important; }
+
+fieldset {
+  outline: 1px solid #D95100 !important; }
+
+form {
+  outline: 1px solid #D23600 !important; }
+
+input {
+  outline: 1px solid #FCA600 !important; }
+
+keygen {
+  outline: 1px solid #B31E00 !important; }
+
+label {
+  outline: 1px solid #EE8900 !important; }
+
+legend {
+  outline: 1px solid #DE6D00 !important; }
+
+meter {
+  outline: 1px solid #E8630C !important; }
+
+optgroup {
+  outline: 1px solid #B33600 !important; }
+
+option {
+  outline: 1px solid #FF8A00 !important; }
+
+output {
+  outline: 1px solid #FF9619 !important; }
+
+progress {
+  outline: 1px solid #E57C00 !important; }
+
+select {
+  outline: 1px solid #E26E0F !important; }
+
+textarea {
+  outline: 1px solid #CC5400 !important; }
+
+details {
+  outline: 1px solid #33848F !important; }
+
+summary {
+  outline: 1px solid #60A1A6 !important; }
+
+command {
+  outline: 1px solid #438DA1 !important; }
+
+menu {
+  outline: 1px solid #449DA6 !important; }
+
+del {
+  outline: 1px solid #BF0000 !important; }
+
+ins {
+  outline: 1px solid #400000 !important; }
+
+img {
+  outline: 1px solid #22746B !important; }
+
+iframe {
+  outline: 1px solid #64A7A0 !important; }
+
+embed {
+  outline: 1px solid #98DACA !important; }
+
+object {
+  outline: 1px solid #00CC99 !important; }
+
+param {
+  outline: 1px solid #37FFC4 !important; }
+
+video {
+  outline: 1px solid #6EE866 !important; }
+
+audio {
+  outline: 1px solid #027353 !important; }
+
+source {
+  outline: 1px solid #012426 !important; }
+
+canvas {
+  outline: 1px solid #A2F570 !important; }
+
+track {
+  outline: 1px solid #59A600 !important; }
+
+map {
+  outline: 1px solid #7BE500 !important; }
+
+area {
+  outline: 1px solid #305900 !important; }
+
+a {
+  outline: 1px solid #FF62AB !important; }
+
+em {
+  outline: 1px solid #800B41 !important; }
+
+strong {
+  outline: 1px solid #FF1583 !important; }
+
+i {
+  outline: 1px solid #803156 !important; }
+
+b {
+  outline: 1px solid #CC1169 !important; }
+
+u {
+  outline: 1px solid #FF0430 !important; }
+
+s {
+  outline: 1px solid #F805E3 !important; }
+
+small {
+  outline: 1px solid #D107B2 !important; }
+
+abbr {
+  outline: 1px solid #4A0263 !important; }
+
+q {
+  outline: 1px solid #240018 !important; }
+
+cite {
+  outline: 1px solid #64003C !important; }
+
+dfn {
+  outline: 1px solid #B4005A !important; }
+
+sub {
+  outline: 1px solid #DBA0C8 !important; }
+
+sup {
+  outline: 1px solid #CC0256 !important; }
+
+time {
+  outline: 1px solid #D6606D !important; }
+
+code {
+  outline: 1px solid #E04251 !important; }
+
+kbd {
+  outline: 1px solid #5E001F !important; }
+
+samp {
+  outline: 1px solid #9C0033 !important; }
+
+var {
+  outline: 1px solid #D90047 !important; }
+
+mark {
+  outline: 1px solid #FF0053 !important; }
+
+bdi {
+  outline: 1px solid #BF3668 !important; }
+
+bdo {
+  outline: 1px solid #6F1400 !important; }
+
+ruby {
+  outline: 1px solid #FF7B93 !important; }
+
+rt {
+  outline: 1px solid #FF2F54 !important; }
+
+rp {
+  outline: 1px solid #803E49 !important; }
+
+span {
+  outline: 1px solid #CC2643 !important; }
+
+br {
+  outline: 1px solid #DB687D !important; }
+
+wbr {
+  outline: 1px solid #DB175B !important; }
