@@ -34,6 +34,15 @@
 .title { text-transform: uppercase; letter-spacing: .2em; }
 .thin { font-weight: 100; }
 
+.brdr-s { border-style:solid;}
+.brdr-d { border-style:dotted;}
+
+.brdrc-w { border-color:white;}
+
+.brdrw-t { border-width:thin;}
+
+.olc-w { outline-color:white;}
+
 @include break(not-small) {
   .pas-ns { padding: 1rem; }
   .pam-ns { padding: 2rem; }
